@@ -160,6 +160,17 @@ img {
 .header-phone:focus {
   color: var(--accent-color);
 }
+.envelope-icon,
+.smartphone-icon {
+  display: inline-block;
+  align-items: center;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.envelope-icon:hover::before,
+.smartphone-icon:hover::before {
+  fill: var(--accent-color);
+}
 /*-----------------page-footer---------------*/
 .footer {
   background: var(--footer-background);
@@ -306,11 +317,47 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .feature-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.antenna-1 {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  padding: 25px 102.34px;
+  background-color: var(--section31-background-color);
+}
+.astronaut-1 {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  padding: 30.23px 115.17px 29.11px 100px;
+  background-color: var(--section31-background-color);
+}
+.diagram-1 {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  padding: 33.2px 100px 33.11px 100px;
+  background-color: var(--section31-background-color);
+}
+.clock-1 {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  padding: 25px 101.5px 25px 101.54px;
+  background-color: var(--section31-background-color);
+}
+
+.antenna-1-icon {
+  /*display: inline-flex;*/
+  /* margin: 25px 102.34px;*/
+
+  color: #000;
 }
 /*-----------------section-activities--------*/
 .activities-list {
