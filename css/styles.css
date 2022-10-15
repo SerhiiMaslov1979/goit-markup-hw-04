@@ -235,6 +235,59 @@ img {
 .logo-wight {
   color: var(--logo3-color);
 }
+
+/* ---------------------------------social footer------------------- */
+
+.footer-contact {
+  display: flex;
+}
+.social-footer-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 10px;
+
+  color: #ffffff;
+}
+
+.social-footer {
+  display: inline-block;
+  margin-left: 70px;
+}
+.social--footer-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-social-item:hover,
+.footer-social-item:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-btn {
+  display: block;
+  align-items: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.footer-social-icon {
+  fill: #ffffff;
+}
+
 /*-----------------page-1--------------------*/
 .header-list .link.current {
   color: var(--accent-color);
@@ -418,6 +471,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/*--------------------- Socisl------------------- */
 .social-list-icon {
   display: flex;
   align-items: center;
@@ -525,6 +580,8 @@ img {
 .worklink-btn:focus {
   background: var(--accent-color);
   color: var(--header-background);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .card-content {
   padding: 20px 24px;
@@ -532,6 +589,7 @@ img {
   border-bottom: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
 }
+
 /*-----------------Links to work-------------*/
 .linkwork-list {
   display: flex;
@@ -555,7 +613,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
+.linkwork-item:hover,
+.linkwork-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /*-----------------work----------------------*/
 .visually-hidden {
   position: absolute;
