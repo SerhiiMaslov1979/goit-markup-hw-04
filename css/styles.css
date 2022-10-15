@@ -19,6 +19,7 @@
   --activ-accent-color: #188ce8;
   --linkwork-list-gap: 15px;
   --border-color: #eeeeee;
+  --color-icon: #afb1b8;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -162,7 +163,7 @@ img {
 }
 .envelope-icon,
 .smartphone-icon {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   margin-right: 10px;
   fill: currentColor;
@@ -256,7 +257,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("..//images/imgoverlay.jpg");
+    url("../images/imgoverlay.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
@@ -353,12 +354,6 @@ img {
   background-color: var(--section31-background-color);
 }
 
-.antenna-1-icon {
-  /*display: inline-flex;*/
-  /* margin: 25px 102.34px;*/
-
-  color: #000;
-}
 /*-----------------section-activities--------*/
 .activities-list {
   display: flex;
@@ -389,6 +384,9 @@ img {
 }
 .worker-item {
   background-color: var(--body-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker-item:first-child {
@@ -420,6 +418,83 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.social-list-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.social-list-item {
+  display: inline-block;
+  background-color: var(--accent2-color);
+}
+
+.social-btn {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.social-btn:hover,
+.social-btn:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
+.worker-icon {
+  fill: #afb1b8;
+}
+
+.worker-icon:hover,
+.worker-icon:focus {
+  fill: #ffffff;
+  /* background-color: var(--accent-color); */
+}
+/*---------------- Section client------------------------- */
+
+.client-list {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  gap: 30px;
+}
+.client-item {
+  display: block;
+  width: 176px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid var(--color-icon);
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.client-item:hover,
+.client-item:focus {
+  fill: var(--accent-color);
+  outline: 1px solid var(--accent-color);
+}
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.client-icon {
+  fill: var(--color-icon);
+}
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--accent-color);
+}
+
 /*-----------------page-2--------------------*/
 /*------------------work link button------------------------*/
 .worklink-list {
