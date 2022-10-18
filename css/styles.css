@@ -93,7 +93,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.header-contact {
+.header-contact-list {
   display: flex;
   margin-left: auto;
 }
@@ -130,7 +130,7 @@ img {
   color: var(--accent-color);
 }
 .header-mail {
-  display: inline-block;
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -140,13 +140,15 @@ img {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
+  justify-content: center;
 }
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
 }
 .header-phone {
-  display: inline-block;
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -156,6 +158,8 @@ img {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
+  justify-content: center;
 }
 .header-phone:hover,
 .header-phone:focus {
@@ -449,7 +453,17 @@ img {
 }
 
 /*--------------------- Socisl------------------- */
-
+.client-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
 .worker-social-list {
   display: flex;
   justify-content: center;
