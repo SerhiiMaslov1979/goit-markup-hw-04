@@ -74,7 +74,6 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /*outline: 1px solid tomato;*/
 }
 .section {
   padding: 94px 0;
@@ -282,7 +281,7 @@ img {
   background-color: var(--accent-color);
 }
 .footer-social-icon {
-  fill: #ffffff;
+  fill: var(--body-background-color);
 }
 
 /*-----------------page-1--------------------*/
@@ -514,59 +513,6 @@ img {
 .client-social-link:focus {
   fill: var(--accent-color);
 }
-/* .client-list {
-  display: flex;
-  gap: 30px;
-}
-.client-item {
-  width: calc((100% - 150) / 6);
-  height: 90px;
-  outline: 1px solid tomato;
-}
-.client-link {
-  width: 100%;
-  height: 100%;
-  border: 1px solid tomato;
-  border-radius: 5px;
-  display: block;
-} */
-
-/* .client-list {
-  display: flex;
-  margin-left: auto;
-  justify-content: space-between;
-  gap: 30px;
-}
-.client-item {
-  display: block;
-  width: 176px;
-  height: 92px;
-  padding: 16px 32px;
-  border: 1px solid var(--color-icon);
-  border-radius: 4px;
-  margin-top: 50px;
-}
-
-.client-item:hover,
-.client-item:focus {
-  fill: var(--accent-color);
-  outline: 1px solid var(--accent-color);
-}
-.client-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
-.client-icon {
-  fill: var(--color-icon);
-}
-.client-icon:hover,
-.client-icon:focus {
-  fill: var(--accent-color);
-} */
 
 /*-----------------page-2--------------------*/
 /*------------------work link button------------------------*/
